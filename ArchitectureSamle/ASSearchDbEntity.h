@@ -8,18 +8,15 @@
 //	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 #import <Realm/Realm.h>
-#import "ASBaseEntity.h"
-RLM_ARRAY_TYPE(ASSearchResults)
-@class ASSearchResults;
 
-@interface ASSearchDbEntity : ASBaseEntity
+@interface ASSearchDbEntity : RLMObject
 
-@property (nonatomic, strong) ASSearchResults * aSSearchResults;
-@property (nonatomic, strong) NSString * poster;
-@property (nonatomic, strong) NSString * title;
-@property (nonatomic, strong) NSString * type;
-@property (nonatomic, strong) NSString * year;
-@property (nonatomic, strong) NSString * imdbID;
+@property (strong, nonatomic) NSString *poster;
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSString *type;
+@property (strong, nonatomic) NSString *year;
+@property (strong, nonatomic) NSString *imdbID;
 
--(instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (NSDictionary *)toDictionary;
 @end

@@ -10,4 +10,8 @@
 
 @implementation ASServiceProvider
 
++ (ASSearchService *)searchService {
+    return [ASSearchService create];
+}
+
 @end

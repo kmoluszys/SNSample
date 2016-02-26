@@ -9,5 +9,5 @@
 #import "SNBaseQuery.h"
 
 @interface ASSearchQuery : SNBaseQuery
-
+@property (strong, nonatomic) NSString *searchString;
 @end

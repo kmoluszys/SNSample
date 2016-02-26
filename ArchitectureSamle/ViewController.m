@@ -7,15 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "ASSearchResultsEntity.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) ASSearchPresenter *presenter;
+@property (strong, nonatomic) ASSearchResultsEntity *model;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.presenter = [ASPresenterProvider searchPresenter];
+    
+    @weakify(self);
+    [[self.presenter getSearchResultsWithSearchText:@"Batman"] subscribeNext:^(ASSearchResultsEntity *x) {
+        @strongify(self);
+        self.model = x;
+    } error:^(NSError *error) {
+        NSLog(@"%@", error);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

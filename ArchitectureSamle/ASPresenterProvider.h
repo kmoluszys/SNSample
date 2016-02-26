@@ -7,7 +7,8 @@
 //
 
 #import <Speednet-Architecture-iOS/Speednet-Architecture-iOS.h>
+#import "ASSearchPresenter.h"
 
 @interface ASPresenterProvider : SNPresenterProvider
-
++ (ASSearchPresenter *)searchPresenter;
 @end

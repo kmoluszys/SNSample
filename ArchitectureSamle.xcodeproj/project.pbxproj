@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9228323092763500FF27E0D2 /* libPods-ArchitectureSamle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7A92D6A369EFC967988383 /* libPods-ArchitectureSamle.a */; };
 		C7158D391C804712000CAE33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7158D381C804712000CAE33 /* main.m */; };
 		C7158D3C1C804712000CAE33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7158D3B1C804712000CAE33 /* AppDelegate.m */; };
 		C7158D3F1C804712000CAE33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7158D3E1C804712000CAE33 /* ViewController.m */; };
@@ -14,6 +15,34 @@
 		C7158D441C804712000CAE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7158D431C804712000CAE33 /* Assets.xcassets */; };
 		C7158D471C804712000CAE33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7158D451C804712000CAE33 /* LaunchScreen.storyboard */; };
 		C7158D521C804712000CAE33 /* ArchitectureSamleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7158D511C804712000CAE33 /* ArchitectureSamleTests.m */; };
+		C74C8F051C804A940027E0ED /* RLMBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F041C804A940027E0ED /* RLMBaseObject.m */; };
+		C74C8F101C804ADC0027E0ED /* RACRealmEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F0A1C804ADC0027E0ED /* RACRealmEngine.m */; };
+		C74C8F111C804ADC0027E0ED /* RACRealmExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F0D1C804ADC0027E0ED /* RACRealmExecutor.m */; };
+		C74C8F121C804ADC0027E0ED /* RACRealmNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F0F1C804ADC0027E0ED /* RACRealmNotifier.m */; };
+		C74C8F191C804AF20027E0ED /* RACDeleteRealmEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F141C804AF20027E0ED /* RACDeleteRealmEngine.m */; };
+		C74C8F1A1C804AF20027E0ED /* RACGetRealmEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F161C804AF20027E0ED /* RACGetRealmEngine.m */; };
+		C74C8F1B1C804AF20027E0ED /* RACSetRealmEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F181C804AF20027E0ED /* RACSetRealmEngine.m */; };
+		C74C8F1F1C804B210027E0ED /* SNBaseInternetQueryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F1E1C804B210027E0ED /* SNBaseInternetQueryEngine.m */; };
+		C74C8F2B1C804C350027E0ED /* SNDeleteInternetQueryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F221C804C350027E0ED /* SNDeleteInternetQueryEngine.m */; };
+		C74C8F2C1C804C350027E0ED /* SNGetInternetQueryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F241C804C350027E0ED /* SNGetInternetQueryEngine.m */; };
+		C74C8F2D1C804C350027E0ED /* SNPatchInternetQueryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F261C804C350027E0ED /* SNPatchInternetQueryEngine.m */; };
+		C74C8F2E1C804C350027E0ED /* SNPostInternetQueryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F281C804C350027E0ED /* SNPostInternetQueryEngine.m */; };
+		C74C8F2F1C804C350027E0ED /* SNPutInternetQueryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F2A1C804C350027E0ED /* SNPutInternetQueryEngine.m */; };
+		C74C8F351C804CDD0027E0ED /* RACDatabaseQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F321C804CDD0027E0ED /* RACDatabaseQuery.m */; };
+		C74C8F361C804CDD0027E0ED /* SNBaseQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F341C804CDD0027E0ED /* SNBaseQuery.m */; };
+		C74C8F391C804DF60027E0ED /* ASWorkerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F381C804DF60027E0ED /* ASWorkerProvider.m */; };
+		C74C8F3C1C804E090027E0ED /* ASServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F3B1C804E090027E0ED /* ASServiceProvider.m */; };
+		C74C8F3F1C804E1A0027E0ED /* ASPresenterProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F3E1C804E1A0027E0ED /* ASPresenterProvider.m */; };
+		C74C8F431C804F420027E0ED /* ASSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F421C804F420027E0ED /* ASSearchQuery.m */; };
+		C74C8F461C804FC10027E0ED /* ASSearchWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F451C804FC10027E0ED /* ASSearchWorker.m */; };
+		C74C8F491C8050670027E0ED /* ASSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F481C8050670027E0ED /* ASSearchService.m */; };
+		C74C8F4C1C8050CD0027E0ED /* ASSearchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F4B1C8050CD0027E0ED /* ASSearchPresenter.m */; };
+		C74C8F511C8052050027E0ED /* ASSearchDatabaseWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F501C8052050027E0ED /* ASSearchDatabaseWorker.m */; };
+		C74C8F551C8052840027E0ED /* ASBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F541C8052840027E0ED /* ASBaseEntity.m */; };
+		C74C8F5C1C8053440027E0ED /* ASSearchEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F591C8053440027E0ED /* ASSearchEntity.m */; };
+		C74C8F5D1C8053440027E0ED /* ASSearchResultsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F5B1C8053440027E0ED /* ASSearchResultsEntity.m */; };
+		C74C8F621C8053790027E0ED /* ASSearchDbEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F5F1C8053790027E0ED /* ASSearchDbEntity.m */; };
+		C74C8F631C8053790027E0ED /* ASSearchResultsDbEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C8F611C8053790027E0ED /* ASSearchResultsDbEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C7A92D6A369EFC967988383 /* libPods-ArchitectureSamle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchitectureSamle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7158D341C804712000CAE33 /* ArchitectureSamle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSamle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7158D381C804712000CAE33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7158D3A1C804712000CAE33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +70,67 @@
 		C7158D4D1C804712000CAE33 /* ArchitectureSamleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureSamleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7158D511C804712000CAE33 /* ArchitectureSamleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitectureSamleTests.m; sourceTree = "<group>"; };
 		C7158D531C804712000CAE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74C8EFB1C8049080027E0ED /* ArchitectureSamle.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchitectureSamle.pch; sourceTree = "<group>"; };
+		C74C8F031C804A870027E0ED /* RLMBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMBaseObject.h; sourceTree = "<group>"; };
+		C74C8F041C804A940027E0ED /* RLMBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMBaseObject.m; sourceTree = "<group>"; };
+		C74C8F091C804ADC0027E0ED /* RACRealmEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRealmEngine.h; sourceTree = "<group>"; };
+		C74C8F0A1C804ADC0027E0ED /* RACRealmEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRealmEngine.m; sourceTree = "<group>"; };
+		C74C8F0B1C804ADC0027E0ED /* RACRealmEngine+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACRealmEngine+Private.h"; sourceTree = "<group>"; };
+		C74C8F0C1C804ADC0027E0ED /* RACRealmExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRealmExecutor.h; sourceTree = "<group>"; };
+		C74C8F0D1C804ADC0027E0ED /* RACRealmExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRealmExecutor.m; sourceTree = "<group>"; };
+		C74C8F0E1C804ADC0027E0ED /* RACRealmNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRealmNotifier.h; sourceTree = "<group>"; };
+		C74C8F0F1C804ADC0027E0ED /* RACRealmNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRealmNotifier.m; sourceTree = "<group>"; };
+		C74C8F131C804AF20027E0ED /* RACDeleteRealmEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACDeleteRealmEngine.h; sourceTree = "<group>"; };
+		C74C8F141C804AF20027E0ED /* RACDeleteRealmEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACDeleteRealmEngine.m; sourceTree = "<group>"; };
+		C74C8F151C804AF20027E0ED /* RACGetRealmEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACGetRealmEngine.h; sourceTree = "<group>"; };
+		C74C8F161C804AF20027E0ED /* RACGetRealmEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACGetRealmEngine.m; sourceTree = "<group>"; };
+		C74C8F171C804AF20027E0ED /* RACSetRealmEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSetRealmEngine.h; sourceTree = "<group>"; };
+		C74C8F181C804AF20027E0ED /* RACSetRealmEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSetRealmEngine.m; sourceTree = "<group>"; };
+		C74C8F1D1C804B210027E0ED /* SNBaseInternetQueryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBaseInternetQueryEngine.h; sourceTree = "<group>"; };
+		C74C8F1E1C804B210027E0ED /* SNBaseInternetQueryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBaseInternetQueryEngine.m; sourceTree = "<group>"; };
+		C74C8F211C804C350027E0ED /* SNDeleteInternetQueryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDeleteInternetQueryEngine.h; sourceTree = "<group>"; };
+		C74C8F221C804C350027E0ED /* SNDeleteInternetQueryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDeleteInternetQueryEngine.m; sourceTree = "<group>"; };
+		C74C8F231C804C350027E0ED /* SNGetInternetQueryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNGetInternetQueryEngine.h; sourceTree = "<group>"; };
+		C74C8F241C804C350027E0ED /* SNGetInternetQueryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNGetInternetQueryEngine.m; sourceTree = "<group>"; };
+		C74C8F251C804C350027E0ED /* SNPatchInternetQueryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNPatchInternetQueryEngine.h; sourceTree = "<group>"; };
+		C74C8F261C804C350027E0ED /* SNPatchInternetQueryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNPatchInternetQueryEngine.m; sourceTree = "<group>"; };
+		C74C8F271C804C350027E0ED /* SNPostInternetQueryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNPostInternetQueryEngine.h; sourceTree = "<group>"; };
+		C74C8F281C804C350027E0ED /* SNPostInternetQueryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNPostInternetQueryEngine.m; sourceTree = "<group>"; };
+		C74C8F291C804C350027E0ED /* SNPutInternetQueryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNPutInternetQueryEngine.h; sourceTree = "<group>"; };
+		C74C8F2A1C804C350027E0ED /* SNPutInternetQueryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNPutInternetQueryEngine.m; sourceTree = "<group>"; };
+		C74C8F311C804CDD0027E0ED /* RACDatabaseQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACDatabaseQuery.h; sourceTree = "<group>"; };
+		C74C8F321C804CDD0027E0ED /* RACDatabaseQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACDatabaseQuery.m; sourceTree = "<group>"; };
+		C74C8F331C804CDD0027E0ED /* SNBaseQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBaseQuery.h; sourceTree = "<group>"; };
+		C74C8F341C804CDD0027E0ED /* SNBaseQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBaseQuery.m; sourceTree = "<group>"; };
+		C74C8F371C804DF60027E0ED /* ASWorkerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWorkerProvider.h; sourceTree = "<group>"; };
+		C74C8F381C804DF60027E0ED /* ASWorkerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASWorkerProvider.m; sourceTree = "<group>"; };
+		C74C8F3A1C804E090027E0ED /* ASServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASServiceProvider.h; sourceTree = "<group>"; };
+		C74C8F3B1C804E090027E0ED /* ASServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASServiceProvider.m; sourceTree = "<group>"; };
+		C74C8F3D1C804E1A0027E0ED /* ASPresenterProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPresenterProvider.h; sourceTree = "<group>"; };
+		C74C8F3E1C804E1A0027E0ED /* ASPresenterProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPresenterProvider.m; sourceTree = "<group>"; };
+		C74C8F401C804EC30027E0ED /* Consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		C74C8F411C804F420027E0ED /* ASSearchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchQuery.h; sourceTree = "<group>"; };
+		C74C8F421C804F420027E0ED /* ASSearchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchQuery.m; sourceTree = "<group>"; };
+		C74C8F441C804FC10027E0ED /* ASSearchWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchWorker.h; sourceTree = "<group>"; };
+		C74C8F451C804FC10027E0ED /* ASSearchWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchWorker.m; sourceTree = "<group>"; };
+		C74C8F471C8050670027E0ED /* ASSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchService.h; sourceTree = "<group>"; };
+		C74C8F481C8050670027E0ED /* ASSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchService.m; sourceTree = "<group>"; };
+		C74C8F4A1C8050CD0027E0ED /* ASSearchPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchPresenter.h; sourceTree = "<group>"; };
+		C74C8F4B1C8050CD0027E0ED /* ASSearchPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchPresenter.m; sourceTree = "<group>"; };
+		C74C8F4F1C8052050027E0ED /* ASSearchDatabaseWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchDatabaseWorker.h; sourceTree = "<group>"; };
+		C74C8F501C8052050027E0ED /* ASSearchDatabaseWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchDatabaseWorker.m; sourceTree = "<group>"; };
+		C74C8F531C8052840027E0ED /* ASBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBaseEntity.h; sourceTree = "<group>"; };
+		C74C8F541C8052840027E0ED /* ASBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBaseEntity.m; sourceTree = "<group>"; };
+		C74C8F581C8053440027E0ED /* ASSearchEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchEntity.h; sourceTree = "<group>"; };
+		C74C8F591C8053440027E0ED /* ASSearchEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchEntity.m; sourceTree = "<group>"; };
+		C74C8F5A1C8053440027E0ED /* ASSearchResultsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchResultsEntity.h; sourceTree = "<group>"; };
+		C74C8F5B1C8053440027E0ED /* ASSearchResultsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchResultsEntity.m; sourceTree = "<group>"; };
+		C74C8F5E1C8053790027E0ED /* ASSearchDbEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchDbEntity.h; sourceTree = "<group>"; };
+		C74C8F5F1C8053790027E0ED /* ASSearchDbEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchDbEntity.m; sourceTree = "<group>"; };
+		C74C8F601C8053790027E0ED /* ASSearchResultsDbEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchResultsDbEntity.h; sourceTree = "<group>"; };
+		C74C8F611C8053790027E0ED /* ASSearchResultsDbEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchResultsDbEntity.m; sourceTree = "<group>"; };
+		C750D15D35E48D67C2C907AD /* Pods-ArchitectureSamle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureSamle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchitectureSamle/Pods-ArchitectureSamle.debug.xcconfig"; sourceTree = "<group>"; };
+		F2325306430800A02777F4C5 /* Pods-ArchitectureSamle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureSamle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchitectureSamle/Pods-ArchitectureSamle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9228323092763500FF27E0D2 /* libPods-ArchitectureSamle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +152,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65F6635CA1C9B6273CB5398F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A92D6A369EFC967988383 /* libPods-ArchitectureSamle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7158D2B1C804712000CAE33 = {
 			isa = PBXGroup;
 			children = (
 				C7158D361C804712000CAE33 /* ArchitectureSamle */,
 				C7158D501C804712000CAE33 /* ArchitectureSamleTests */,
 				C7158D351C804712000CAE33 /* Products */,
+				F63548E8AB38FD49A56303C2 /* Pods */,
+				65F6635CA1C9B6273CB5398F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +183,14 @@
 		C7158D361C804712000CAE33 /* ArchitectureSamle */ = {
 			isa = PBXGroup;
 			children = (
+				C74C8F021C804A5F0027E0ED /* Tools */,
+				C74C8F061C804AAB0027E0ED /* Engine */,
+				C74C8EFC1C8049C40027E0ED /* Model */,
+				C74C8EFD1C8049C90027E0ED /* Query */,
+				C74C8EFE1C8049CF0027E0ED /* Worker */,
+				C74C8EFF1C8049F50027E0ED /* Service */,
+				C74C8F001C8049FA0027E0ED /* Presenter */,
+				C74C8F011C804A130027E0ED /* Provider */,
 				C7158D3A1C804712000CAE33 /* AppDelegate.h */,
 				C7158D3B1C804712000CAE33 /* AppDelegate.m */,
 				C7158D3D1C804712000CAE33 /* ViewController.h */,
@@ -98,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				C7158D381C804712000CAE33 /* main.m */,
+				C74C8EFB1C8049080027E0ED /* ArchitectureSamle.pch */,
+				C74C8F401C804EC30027E0ED /* Consts.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -111,6 +223,208 @@
 			path = ArchitectureSamleTests;
 			sourceTree = "<group>";
 		};
+		C74C8EFC1C8049C40027E0ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F571C8052980027E0ED /* Db */,
+				C74C8F521C80524F0027E0ED /* Entity */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C74C8EFD1C8049C90027E0ED /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F301C804CD50027E0ED /* Base */,
+				C74C8F411C804F420027E0ED /* ASSearchQuery.h */,
+				C74C8F421C804F420027E0ED /* ASSearchQuery.m */,
+			);
+			name = Query;
+			sourceTree = "<group>";
+		};
+		C74C8EFE1C8049CF0027E0ED /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F4E1C8051EF0027E0ED /* Database */,
+				C74C8F4D1C8051E90027E0ED /* Internet */,
+			);
+			name = Worker;
+			sourceTree = "<group>";
+		};
+		C74C8EFF1C8049F50027E0ED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F471C8050670027E0ED /* ASSearchService.h */,
+				C74C8F481C8050670027E0ED /* ASSearchService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		C74C8F001C8049FA0027E0ED /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F4A1C8050CD0027E0ED /* ASSearchPresenter.h */,
+				C74C8F4B1C8050CD0027E0ED /* ASSearchPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		C74C8F011C804A130027E0ED /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F371C804DF60027E0ED /* ASWorkerProvider.h */,
+				C74C8F381C804DF60027E0ED /* ASWorkerProvider.m */,
+				C74C8F3A1C804E090027E0ED /* ASServiceProvider.h */,
+				C74C8F3B1C804E090027E0ED /* ASServiceProvider.m */,
+				C74C8F3D1C804E1A0027E0ED /* ASPresenterProvider.h */,
+				C74C8F3E1C804E1A0027E0ED /* ASPresenterProvider.m */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
+		C74C8F021C804A5F0027E0ED /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F031C804A870027E0ED /* RLMBaseObject.h */,
+				C74C8F041C804A940027E0ED /* RLMBaseObject.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		C74C8F061C804AAB0027E0ED /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F1C1C804B0D0027E0ED /* Internet */,
+				C74C8F071C804ACA0027E0ED /* Database */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		C74C8F071C804ACA0027E0ED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F081C804AD20027E0ED /* Base */,
+				C74C8F131C804AF20027E0ED /* RACDeleteRealmEngine.h */,
+				C74C8F141C804AF20027E0ED /* RACDeleteRealmEngine.m */,
+				C74C8F151C804AF20027E0ED /* RACGetRealmEngine.h */,
+				C74C8F161C804AF20027E0ED /* RACGetRealmEngine.m */,
+				C74C8F171C804AF20027E0ED /* RACSetRealmEngine.h */,
+				C74C8F181C804AF20027E0ED /* RACSetRealmEngine.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		C74C8F081C804AD20027E0ED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F091C804ADC0027E0ED /* RACRealmEngine.h */,
+				C74C8F0A1C804ADC0027E0ED /* RACRealmEngine.m */,
+				C74C8F0B1C804ADC0027E0ED /* RACRealmEngine+Private.h */,
+				C74C8F0C1C804ADC0027E0ED /* RACRealmExecutor.h */,
+				C74C8F0D1C804ADC0027E0ED /* RACRealmExecutor.m */,
+				C74C8F0E1C804ADC0027E0ED /* RACRealmNotifier.h */,
+				C74C8F0F1C804ADC0027E0ED /* RACRealmNotifier.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C74C8F1C1C804B0D0027E0ED /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F201C804C270027E0ED /* Base */,
+				C74C8F211C804C350027E0ED /* SNDeleteInternetQueryEngine.h */,
+				C74C8F221C804C350027E0ED /* SNDeleteInternetQueryEngine.m */,
+				C74C8F231C804C350027E0ED /* SNGetInternetQueryEngine.h */,
+				C74C8F241C804C350027E0ED /* SNGetInternetQueryEngine.m */,
+				C74C8F251C804C350027E0ED /* SNPatchInternetQueryEngine.h */,
+				C74C8F261C804C350027E0ED /* SNPatchInternetQueryEngine.m */,
+				C74C8F271C804C350027E0ED /* SNPostInternetQueryEngine.h */,
+				C74C8F281C804C350027E0ED /* SNPostInternetQueryEngine.m */,
+				C74C8F291C804C350027E0ED /* SNPutInternetQueryEngine.h */,
+				C74C8F2A1C804C350027E0ED /* SNPutInternetQueryEngine.m */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		C74C8F201C804C270027E0ED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F1D1C804B210027E0ED /* SNBaseInternetQueryEngine.h */,
+				C74C8F1E1C804B210027E0ED /* SNBaseInternetQueryEngine.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C74C8F301C804CD50027E0ED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F311C804CDD0027E0ED /* RACDatabaseQuery.h */,
+				C74C8F321C804CDD0027E0ED /* RACDatabaseQuery.m */,
+				C74C8F331C804CDD0027E0ED /* SNBaseQuery.h */,
+				C74C8F341C804CDD0027E0ED /* SNBaseQuery.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C74C8F4D1C8051E90027E0ED /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F441C804FC10027E0ED /* ASSearchWorker.h */,
+				C74C8F451C804FC10027E0ED /* ASSearchWorker.m */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		C74C8F4E1C8051EF0027E0ED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F4F1C8052050027E0ED /* ASSearchDatabaseWorker.h */,
+				C74C8F501C8052050027E0ED /* ASSearchDatabaseWorker.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		C74C8F521C80524F0027E0ED /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F561C8052930027E0ED /* Base */,
+				C74C8F581C8053440027E0ED /* ASSearchEntity.h */,
+				C74C8F591C8053440027E0ED /* ASSearchEntity.m */,
+				C74C8F5A1C8053440027E0ED /* ASSearchResultsEntity.h */,
+				C74C8F5B1C8053440027E0ED /* ASSearchResultsEntity.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		C74C8F561C8052930027E0ED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F531C8052840027E0ED /* ASBaseEntity.h */,
+				C74C8F541C8052840027E0ED /* ASBaseEntity.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C74C8F571C8052980027E0ED /* Db */ = {
+			isa = PBXGroup;
+			children = (
+				C74C8F5E1C8053790027E0ED /* ASSearchDbEntity.h */,
+				C74C8F5F1C8053790027E0ED /* ASSearchDbEntity.m */,
+				C74C8F601C8053790027E0ED /* ASSearchResultsDbEntity.h */,
+				C74C8F611C8053790027E0ED /* ASSearchResultsDbEntity.m */,
+			);
+			name = Db;
+			sourceTree = "<group>";
+		};
+		F63548E8AB38FD49A56303C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C750D15D35E48D67C2C907AD /* Pods-ArchitectureSamle.debug.xcconfig */,
+				F2325306430800A02777F4C5 /* Pods-ArchitectureSamle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +432,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7158D561C804712000CAE33 /* Build configuration list for PBXNativeTarget "ArchitectureSamle" */;
 			buildPhases = (
+				D53D8E1BD47DA60163A17D7C /* Check Pods Manifest.lock */,
 				C7158D301C804712000CAE33 /* Sources */,
 				C7158D311C804712000CAE33 /* Frameworks */,
 				C7158D321C804712000CAE33 /* Resources */,
+				DDE1644CC4DF2FC410282A5D /* Embed Pods Frameworks */,
+				66CA12BF1E5EE691D2FA1F9B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,14 +523,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66CA12BF1E5EE691D2FA1F9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchitectureSamle/Pods-ArchitectureSamle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53D8E1BD47DA60163A17D7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE1644CC4DF2FC410282A5D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchitectureSamle/Pods-ArchitectureSamle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7158D301C804712000CAE33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74C8F431C804F420027E0ED /* ASSearchQuery.m in Sources */,
+				C74C8F461C804FC10027E0ED /* ASSearchWorker.m in Sources */,
+				C74C8F2D1C804C350027E0ED /* SNPatchInternetQueryEngine.m in Sources */,
+				C74C8F2F1C804C350027E0ED /* SNPutInternetQueryEngine.m in Sources */,
+				C74C8F101C804ADC0027E0ED /* RACRealmEngine.m in Sources */,
+				C74C8F191C804AF20027E0ED /* RACDeleteRealmEngine.m in Sources */,
+				C74C8F2C1C804C350027E0ED /* SNGetInternetQueryEngine.m in Sources */,
+				C74C8F4C1C8050CD0027E0ED /* ASSearchPresenter.m in Sources */,
+				C74C8F491C8050670027E0ED /* ASSearchService.m in Sources */,
+				C74C8F2B1C804C350027E0ED /* SNDeleteInternetQueryEngine.m in Sources */,
+				C74C8F391C804DF60027E0ED /* ASWorkerProvider.m in Sources */,
+				C74C8F551C8052840027E0ED /* ASBaseEntity.m in Sources */,
+				C74C8F1F1C804B210027E0ED /* SNBaseInternetQueryEngine.m in Sources */,
+				C74C8F621C8053790027E0ED /* ASSearchDbEntity.m in Sources */,
 				C7158D3F1C804712000CAE33 /* ViewController.m in Sources */,
+				C74C8F631C8053790027E0ED /* ASSearchResultsDbEntity.m in Sources */,
 				C7158D3C1C804712000CAE33 /* AppDelegate.m in Sources */,
+				C74C8F3C1C804E090027E0ED /* ASServiceProvider.m in Sources */,
+				C74C8F1A1C804AF20027E0ED /* RACGetRealmEngine.m in Sources */,
+				C74C8F511C8052050027E0ED /* ASSearchDatabaseWorker.m in Sources */,
+				C74C8F3F1C804E1A0027E0ED /* ASPresenterProvider.m in Sources */,
+				C74C8F1B1C804AF20027E0ED /* RACSetRealmEngine.m in Sources */,
+				C74C8F5D1C8053440027E0ED /* ASSearchResultsEntity.m in Sources */,
+				C74C8F361C804CDD0027E0ED /* SNBaseQuery.m in Sources */,
 				C7158D391C804712000CAE33 /* main.m in Sources */,
+				C74C8F051C804A940027E0ED /* RLMBaseObject.m in Sources */,
+				C74C8F111C804ADC0027E0ED /* RACRealmExecutor.m in Sources */,
+				C74C8F2E1C804C350027E0ED /* SNPostInternetQueryEngine.m in Sources */,
+				C74C8F121C804ADC0027E0ED /* RACRealmNotifier.m in Sources */,
+				C74C8F351C804CDD0027E0ED /* RACDatabaseQuery.m in Sources */,
+				C74C8F5C1C8053440027E0ED /* ASSearchEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +732,10 @@
 		};
 		C7158D571C804712000CAE33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C750D15D35E48D67C2C907AD /* Pods-ArchitectureSamle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ArchitectureSamle/ArchitectureSamle.pch;
 				INFOPLIST_FILE = ArchitectureSamle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.speednet.ArchitectureSamle;
@@ -350,8 +745,10 @@
 		};
 		C7158D581C804712000CAE33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2325306430800A02777F4C5 /* Pods-ArchitectureSamle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ArchitectureSamle/ArchitectureSamle.pch;
 				INFOPLIST_FILE = ArchitectureSamle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.speednet.ArchitectureSamle;
@@ -402,6 +799,7 @@
 				C7158D581C804712000CAE33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7158D591C804712000CAE33 /* Build configuration list for PBXNativeTarget "ArchitectureSamleTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +808,7 @@
 				C7158D5B1C804712000CAE33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

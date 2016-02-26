@@ -10,4 +10,12 @@
 
 @implementation ASSearchQuery
 
+- (NSString *)serverUrl {
+    return self.__baseUrl;
+}
+
+- (NSDictionary *)mapKeys {
+    return @{@"searchString" : @"s"};
+}
+
 @end

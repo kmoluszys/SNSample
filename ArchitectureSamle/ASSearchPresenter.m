@@ -10,4 +10,8 @@
 
 @implementation ASSearchPresenter
 
+- (RACSignal *)getSearchResultsWithSearchText:(NSString *)searchText {
+    return [[[[ASServiceProvider searchService] getSearchResultsWithSearchText:searchText] subscribeOnBackgroundThread] deliverOnMainThread];
+}
+
 @end

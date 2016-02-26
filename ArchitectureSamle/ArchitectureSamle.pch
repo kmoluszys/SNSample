@@ -9,5 +9,26 @@
 #ifndef ArchitectureSamle_h
 #define ArchitectureSamle_h
 
+#import <Speednet-Architecture-iOS/Speednet-Architecture-iOS.h>
+#import <CommonLib-iOS/CommonLib.h>
+#import <Realm/Realm.h>
+
+#import "RACDatabaseQuery.h"
+#import "RACRealmExecutor.h"
+#import "RACGetRealmEngine.h"
+#import "RACSetRealmEngine.h"
+#import "RACDeleteRealmEngine.h"
+
+#import "SNPostInternetQueryEngine.h"
+#import "SNDeleteInternetQueryEngine.h"
+#import "SNGetInternetQueryEngine.h"
+#import "SNPutInternetQueryEngine.h"
+#import "SNPatchInternetQueryEngine.h"
+
+#import "ASWorkerProvider.h"
+#import "ASServiceProvider.h"
+#import "ASPresenterProvider.h"
+
+#import "Consts.h"
 
 #endif /* ArchitectureSamle_h */

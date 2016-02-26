@@ -8,6 +8,7 @@
 
 #import <Speednet-Architecture-iOS/Speednet-Architecture-iOS.h>
 
+@class ASSearchResultsDbEntity;
 @interface ASSearchDatabaseWorker : SNWorker
-
+- (RACExecutor *)setSearchResults:(ASSearchResultsDbEntity *)results;
 @end

@@ -9,5 +9,5 @@
 #import <Speednet-Architecture-iOS/Speednet-Architecture-iOS.h>
 
 @interface ASSearchPresenter : SNPresenter
-
+- (RACSignal *)getSearchResultsWithSearchText:(NSString *)searchText;
 @end

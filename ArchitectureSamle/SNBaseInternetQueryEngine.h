@@ -1,6 +1,5 @@
 //
-//  YDPBaseInternetQueryEngine.h
-//  Didactus
+//  SNBaseInternetQueryEngine
 //
 //  Created by Karol Moluszys on 30.11.2015.
 //  Copyright © 2016 Speednet Sp. z o. o.. All rights reserved.

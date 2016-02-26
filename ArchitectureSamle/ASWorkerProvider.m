@@ -10,4 +10,12 @@
 
 @implementation ASWorkerProvider
 
++ (ASSearchWorker *)searchWorker {
+    return [ASSearchWorker create];
+}
+
++ (ASSearchDatabaseWorker *)searchDatabaseWorker {
+    return [ASSearchDatabaseWorker create];
+}
+
 @end

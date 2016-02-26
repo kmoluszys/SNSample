@@ -7,7 +7,8 @@
 //
 
 #import <Speednet-Architecture-iOS/Speednet-Architecture-iOS.h>
+#import "ASSearchService.h"
 
 @interface ASServiceProvider : SNServiceProvider
-
++ (ASSearchService *)searchService;
 @end

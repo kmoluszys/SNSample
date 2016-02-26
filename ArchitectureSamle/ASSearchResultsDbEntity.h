@@ -8,15 +8,15 @@
 //	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 #import <Realm/Realm.h>
-#import "ASBaseEntity.h"
-RLM_ARRAY_TYPE(ASSearch)
+RLM_ARRAY_TYPE(ASSearchDbEntity)
 @class ASSearchDbEntity;
 
-@interface ASSearchResultsDbEntity : ASBaseEntity
+@interface ASSearchResultsDbEntity : RLMObject
+@property (assign, nonatomic) NSInteger idx;
+@property (assign, nonatomic) BOOL response;
+@property (strong, nonatomic) RLMArray<ASSearchDbEntity> *search;
+@property (strong, nonatomic) NSString *totalResults;
 
-@property (nonatomic, assign) BOOL response;
-@property (nonatomic, strong) RLMArray<ASSearch> * search;
-@property (nonatomic, strong) NSString * totalResults;
-
--(instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (NSDictionary *)toDictionary;
 @end

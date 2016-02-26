@@ -10,4 +10,8 @@
 
 @implementation ASPresenterProvider
 
++ (ASSearchPresenter *)searchPresenter {
+    return [ASSearchPresenter create];
+}
+
 @end
